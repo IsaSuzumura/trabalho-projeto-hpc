@@ -21,10 +21,10 @@
 ## Como Rodar (Santos Dumont)
     Para submeter o job no supercomputador, você usará o agendador SLURM.
 
-    1. Copie os arquivos do projeto para o nó de acesso do Santos Dumont e prepare os dados temporários em /scratch.
-    2. Compile ou prepare o ambiente executando o script de build.
+1. Copie os arquivos do projeto para o nó de acesso do Santos Dumont e prepare os dados temporários em /scratch.
+2. Compile ou prepare o ambiente executando o script de build.
         bash scripts/build.sh
-    3. Submeta o job SLURM usando o script job_cpu.slurm
+3. Submeta o job SLURM usando o script job_cpu.slurm
         sbatch scripts/job_cpu.slurm
 
 ## Estrutura

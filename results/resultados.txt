@@ -1,0 +1,4 @@
+A análise dos resultados demonstra que o speedup aumenta significativamente até 8 processos, 
+com a eficiência diminuindo gradualmente. A queda de desempenho observada em 16 processos 
+sugere que o overhead de comunicação e sincronização superou o ganho de computação, 
+indicando um ponto de gargalo.
